@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_2</item>
+        <item name="colorPrimaryDark">@color/primary_4</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:background">@drawable/button_type</item>
+        <item name="android:textColor">@drawable/button_type_text</item>
+        <item name="android:paddingLeft">@dimen/margen_pequenho</item>
+        <item name="android:paddingRight">@dimen/margen_pequenho</item>
+        <item name="android:layout_marginTop">@dimen/margen_pequenho</item>
+        <item name="android:layout_marginBottom">@dimen/margen_pequenho</item>
+    </style>
+
+    <style name="strikingText">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/strikingTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textTitleStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textSize">@dimen/superTitleTextSize</item>
+        <item name="android:layout_marginTop">@dimen/margen_superior</item>
+    </style>
+</resources>

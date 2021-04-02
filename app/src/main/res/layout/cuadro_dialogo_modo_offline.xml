@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/primary_1">
+
+        <TextView
+            android:id="@+id/tvTituloCuadroDialogoModoOffline"
+            style="@style/textTitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/margen_superior"
+            android:text="@string/modo_offline" />
+
+        <ImageButton
+            android:id="@+id/ibSalirCuadroDialogoModoOffline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/margen_pequenho"
+            android:background="@null"
+            android:src="@drawable/iconosalir" />
+
+        <LinearLayout
+            android:id="@+id/llBotonesContraYoCuadroDialogoModoOffline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTituloCuadroDialogoModoOffline"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/contra_yo"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bContinuarCuadroDialogoModoOffline"
+                style="@style/buttonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/continuar" />
+
+            <Button
+                android:id="@+id/bNuevaPartidaCuadroDialogoModoOffline"
+                style="@style/buttonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nueva_partida" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llBotonesContraYoCuadroDialogoModoOffline"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/margen_superior"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/contra_ia"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bContinuarCuadroDialogoModoOfflineVSIA"
+                style="@style/buttonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/continuar" />
+
+            <Button
+                android:id="@+id/bNuevaPartidaCuadroDialogoModoOfflineVSIA"
+                style="@style/buttonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nueva_partida" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

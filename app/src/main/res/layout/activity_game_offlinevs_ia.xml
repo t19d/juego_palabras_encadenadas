@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_0"
+    tools:context=".GameOfflineActivity">
+
+    <TextView
+        android:id="@+id/tvTituloPuntuacionGameOfflineVSIA"
+        style="@style/strikingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margen_pequenho"
+        android:layout_marginTop="@dimen/margen_superior"
+        android:layout_marginRight="@dimen/margen_pequenho"
+        android:text="@string/puntuacion" />
+
+    <TextView
+        android:id="@+id/tvPuntuacionGameOfflineVSIA"
+        style="@style/strikingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTituloPuntuacionGameOfflineVSIA"
+        android:layout_marginLeft="@dimen/margen_pequenho"
+        android:layout_marginRight="@dimen/margen_pequenho" />
+
+    <LinearLayout
+        android:id="@+id/llFormDatosJuegoGameOfflineVSIA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPuntuacionGameOfflineVSIA"
+        android:layout_marginLeft="@dimen/margen_pequenho"
+        android:layout_marginTop="@dimen/margen_superior"
+        android:layout_marginRight="@dimen/margen_pequenho"
+        android:background="@color/primary_1"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minimo"
+            android:background="@color/secondary1_1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ultima_palabra"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tvUltimaPalabraGameOfflineVSIA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary_2"
+            android:text="@string/aun_no_se_ha_escrito_ninguna_palabra" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minimo"
+            android:background="@color/secondary1_3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tu_palabra"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNuevaPalabraGameOfflineVSIA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minimo"
+            android:background="@color/secondary1_1" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bAceptarGameOfflineVSIA"
+        style="@style/buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llFormDatosJuegoGameOffline"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/margen_superior"
+        android:text="@string/aceptar" />
+
+
+</RelativeLayout>

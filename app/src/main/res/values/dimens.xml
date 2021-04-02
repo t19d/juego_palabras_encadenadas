@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margen_pequenho">15dp</dimen>
+    <dimen name="margen_superior">40dp</dimen>
+    <dimen name="strikingTextSize">25sp</dimen>
+    <dimen name="superTitleTextSize">40sp</dimen>
+
+    <dimen name="minimo">1dp</dimen>
+</resources>

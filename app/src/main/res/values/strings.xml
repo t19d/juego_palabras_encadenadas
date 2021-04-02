@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Encadenadas</string>
+    <string name="nueva_partida">Nueva partida</string>
+    <string name="ultima_palabra">Última palabra</string>
+    <string name="tu_palabra">Tu palabra</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="aun_no_se_ha_escrito_ninguna_palabra">Aún no se ha escrito ninguna palabra</string>
+    <string name="puntuacion">Puntuación</string>
+    <string name="tienes_que_introducir_una_palabra">Tienes que introducir una palabra</string>
+    <string name="palabra_no_valida">Palabra no válida</string>
+    <string name="modo_offline">Modo Offline</string>
+    <string name="modo_online">Modo Online</string>
+    <string name="amigos">Amigos</string>
+    <string name="records">Récords</string>
+    <string name="continuar">Continuar</string>
+    <string name="contra_yo">Contra yo</string>
+    <string name="contra_ia">Contra IA</string>
+</resources>
